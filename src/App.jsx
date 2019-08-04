@@ -6,6 +6,8 @@ import Donate from "./Components/Donate";
 import Contact from "./Components/Contact";
 import Navbar from "./Components/CustomNav";
 import './App.css';
+import PersonalDetails from "./Components/RegisterLearner/PersonalDetails";
+import SmartContract from "./Components/RegisterLearner/SmartContract";
 
 class App extends React.Component {
       render() {
@@ -17,6 +19,8 @@ class App extends React.Component {
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/donate" component={Donate}/>
                 <Route exact path="/contact" component={Contact}/>
+                <Route exact path="/learner/personal-details" component={PersonalDetails}/>
+                <Route exact path="/learner/smart-contract" component={SmartContract}/>
                 <Route exact path=""/>
            </div>
           </Router>

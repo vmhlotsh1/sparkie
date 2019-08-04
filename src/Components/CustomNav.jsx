@@ -27,8 +27,8 @@ class CustomNav extends React.Component {
                         <NavItem eventKey={3} componentClass={Link} to="/contact">
                             CONTACT US
                         </NavItem>
-                        <NavItem eventKey={4} componentClass={Link} to="/login">
-                            <Button bsStyle="secondary" className="btn-secondary"> Login </Button>
+                        <NavItem eventKey={4} componentClass={Link} className='login' to="/login">
+                            Login
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>

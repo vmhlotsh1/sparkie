@@ -1,4 +1,8 @@
-{
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"{
   "name": "sparkie",
   "version": "0.1.0",
   "private": true,
@@ -7,14 +11,14 @@
     "react-bootstrap": "0.32.4",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^5.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+  "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+  "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
+  "eject": "react-scripts eject"
+}
   "eslintConfig": {
     "extends": "react-app"
   },
